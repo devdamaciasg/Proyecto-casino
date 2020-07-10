@@ -1,0 +1,1 @@
+[{"id":"0","cedula":"1111564481","nombre":"Mar\u00eda Paula Torres Casta\u00f1o","dinero":10000},{"id":"1","cedula":"6588947","nombre":"Ana Sofía Porto","dinero":10000},{"id":"2","cedula":"1111855632","nombre":"Leonardo de Jesús Lewis","dinero":10000}]

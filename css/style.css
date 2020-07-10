@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+	font-family: Arial;
+	user-select: none;
+}
+
+.hidden{
+	display: none;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f9f9f9;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+.nav > ul{
+	list-style: none;
+	margin-left: 20px;
+	padding: 0;
+}
+.nav > ul > li{
+	margin-bottom: 7px;
+	cursor: pointer;
+}
+.nav > ul > li:hover{
+	text-decoration: underline;
+}
+.nav > p{
+	margin-left: 20px;
+	font-weight: 800;
+}
+
+.active{
+	font-weight: bold;
+}
+
+.content {
+  margin-left: 200px;
+  padding: 1px 25px;
+  height: 1000px;
+}
+
+h1{
+	margin-bottom: 0;
+}
+
+small{
+	margin: 0;
+	color: #b5b5b5;
+}
+
+table{
+	margin-top: 30px;
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+}
+table > tbody > tr > th{
+	background-color: #cecece !important;
+}
+table > tbody > tr > th, td{
+	padding: 7px;
+}
+table > tbody tr:nth-child(odd){
+  background-color: #f3f3f3;
+}
+
+input, button{
+	border: 1px solid #dadada;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 17px;
+	margin-top: 20px;
+}
+
+span:hover{
+	text-decoration: underline;
+}

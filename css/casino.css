@@ -1,0 +1,124 @@
+body{
+	margin: 0;
+	font-family: Arial;
+}
+
+.hidden{
+	display: none;
+}
+
+.nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #ffffff !important;
+	text-align: right;
+}
+.nav > p{
+	margin: 0;
+	padding: 10px;	
+}
+.nav > p > a{
+	text-decoration: none;
+	color: #000000;
+}
+.nav > p > a:hover{
+	text-decoration: underline;
+}
+
+.contenido_apuesta, .rptx{
+	margin-top: 39px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+.contenido_apuesta > p {
+	margin: 0;
+}
+.contenido_apuesta > .result {
+	margin-top: 10px;
+}
+.contenido_apuesta > .result > p, h1, h2, h3{
+	margin: 0;
+	text-transform:uppercase;
+}
+.result > .content{
+	margin-top: 30px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.result > .content > div{
+	user-select: none;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 5px;
+	width: 20%;
+	max-width: 20%;
+	height: 300px;
+	max-height: 300px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+    line-height: 300px;
+    text-transform: uppercase;
+}
+.result > .content > div:hover{
+	cursor: pointer;
+	box-shadow: 0 0 7px 0px #8e8e8e;
+    border: 1px solid #8e8e8e;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.result > .content > .c_verde{
+	background-color: green;
+	color: white;
+}
+.result > .content > .c_rojo{
+	background-color: red;
+	color: white;
+}
+.result > .content > .c_negro{
+	background-color: black;
+	color: white;
+}
+.result > input{
+	border: 1px solid #dadada;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100px;
+}
+.contenido_apuesta > input, button{
+	border: 1px solid #dadada;
+	border-radius: 5px;
+	font-size: 17px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.isthis{
+	animation: rotate 0.2s infinite;
+    transform: rotate(3deg);
+    animation-direction: alternate;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(-3deg);
+  }
+  100% {
+    transform: rotate(3deg);
+  }
+}
+
+.goback{
+	color:blue;
+	padding:3px;
+}
+.goback:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
